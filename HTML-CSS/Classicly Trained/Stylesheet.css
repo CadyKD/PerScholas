@@ -1,0 +1,32 @@
+body {
+  padding-left: 11em;
+  font-family: Arial, Serif, Sans-serif;
+  background-color: black;
+  color: white; }
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em; }
+ul.navbar li {
+  background: red;
+  margin: 0.5em 0;
+  padding: 0.3em; }
+ul.navbar a {
+  text-decoration: underline }
+a:link {
+  color: white }
+a:visited {
+  color: white }
+address {
+  font-size: 70% ;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted; }
+h1 {
+  font-family; 'Arial Black' }
+signature {
+  color: #009900 }

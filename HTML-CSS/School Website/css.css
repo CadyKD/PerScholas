@@ -1,0 +1,111 @@
+a:link {
+	color: #FFFFFF;
+	text-decoration: none; }
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none; }
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline; }
+a:active {
+	color: #FFFFFF;
+	text-decoration: none; }
+body {
+	background-attachment: fixed;
+	background-color: #000000;
+	background-image: url('http://good-wallpapers.com/pictures/925/Space_Sunset_on_the_cold_planet.jpg');
+	background-position: center top;
+	color: #FFFFFF;
+	font-family: Arial;
+	overflow: scoll; }
+.centeredmenu {
+	background: #000000;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 100%; }
+.centeredmenu  ul {
+	clear: left;
+	float: left;
+	left: 50%;
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center; }
+.centeredmenu  ul li {
+	border: 2px double #FFFFFF;
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;}
+.centeredmenu ul li a {
+	background: #000000;
+	color: #FFFFFF;
+	display: block;
+	line-height: 1.3em;
+	margin: 0 0 0 1px;
+	padding: 3px 10px;
+	text-decoration: none; }
+.centeredmenu ul li a:hover {
+	background: #0000FF;
+	color: #FFFFFF; }
+.centeredmenu ul li a.active,
+.centeredmenu ul li a.active:hover {
+	background: #FF0000;
+	color: #FFFFFF;
+	font-weight: bold;}
+.container {
+	background-color: #000000;
+	border: medium solid #FFFFFF;
+	line-height: 120%;
+	margin: auto;
+	padding: 2px;
+	text-align: center;
+	width: 95%; }
+.disclaimer {
+	background-color: #000050;
+	line-height: 120%;
+	margin: auto;
+	text-align: center;
+	width: 99%; }
+.left {
+	text-align: left;
+	margin: auto;
+	width: 70%; }
+.logo {
+	color: #FFFFFF;
+	text-align: center; }
+.main {
+	background-color: #000050;
+	border: medium solid #0000FF;
+	clear: both;
+	margin: auto;
+	padding: 2px;
+	text-align: center;
+	width: 99%; }
+.selected {
+	background: #0000FF;
+	color: #FFFFFF;
+	display: block;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin: 0 0 0 1px;
+	padding: 3px 10px;
+	text-decoration: none; }
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%; }
+table.join {
+	width: 50%; }
+table.rules {
+	width: 70%; }
+td {
+	padding: 3px;}
+th {
+	padding: 3px;}

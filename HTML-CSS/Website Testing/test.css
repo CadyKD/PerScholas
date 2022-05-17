@@ -1,0 +1,75 @@
+a:link, a:visited {
+	color:#ff0000;
+}
+body{
+	background-attachment:fixed;
+	background-color:#000099;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+body#home{
+		background-image:url('home.jpg');
+}
+body#about{
+		background-image:url('about.jpg');
+}
+body#stuff{
+		background-image:url('stuff.jpg');
+}
+body#links{
+		background-image:url('links.jpg');
+}
+#content {
+	bottom:0px;
+	left:120px;
+	overflow:auto;
+	position:fixed;
+	top:75px;
+}
+#footer {
+	background-color:rgba(255,255,255,0.5);
+	bottom:0px;
+	font-weight:bold;
+	height:50px;
+	width:100%;
+}
+#header {
+	background-color:rgba(255,255,255,0.5);
+	font-weight:bold;
+	height:75px;
+	margin:10px 20px 0px 20px;
+	padding-left:200px;
+	position:fixed;
+	width:75%;
+}
+#nav {
+	background-color:#ffffff;
+	bottom:0px;
+	left:0px;
+	position:fixed;
+	top:75px;
+	width:120px;
+}
+#nav a:link, #nav a:visited {
+	color:#000000;
+	display:block;
+	font-weight:bold;
+	padding:4px;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#nav a:hover, #nav a:active {
+	background-color:#606060;
+	color:#ffffff;
+}
+#nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.post {
+	background-color:rgba(0,0,0,0.6);
+	color:#ffffff;
+}
