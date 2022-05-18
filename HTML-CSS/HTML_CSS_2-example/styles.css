@@ -5,18 +5,19 @@
 	border: none;
 	margin: auto;
     padding: 2px;
+	color: #FFFFFF;
 }
 
 h1, p {
 	text-align: center;
-	color: #FFFFFF;
 }
 
 #email-form {
-	width: 300px;
+	width: 400px;
 	background-color: #FB354A;
 	padding: 20px;
 }
+
 .main {
 	background-color: #4B4B4B;
 }
@@ -30,7 +31,6 @@ h1, p {
 	height: 40px;
 	margin: 5px 0;
 	text-align: left;
-	color: #FFFFFF;
 	background-color: #CA2A3B;
 }
 
@@ -39,12 +39,12 @@ h1, p {
 	height: 40px;
 	margin: 5px 0;
 	text-align: left;
-	color: #FFFFFF;
 	background-color: #CA2A3B;
 }
 
 .text-field {
-	height: 100px;
+	height: 150px;
+	width: 100%;
 	margin: 5px 0;
 	text-align: left;
 	background-color: #CA2A3B;
