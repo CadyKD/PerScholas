@@ -1,4 +1,30 @@
+* {
+	color: #FFFFFF;
+	background-color: #000000;
+	font-family:Arial;
+}
+
+a:link, a:visited, a:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+hr.white {
+	border-top: 1px solid white;
+}
+
+.grey-box {
+	background-color: #202020;
+}
+
 #header-image {
-	text-align:left;
+	padding: 10px;
 	float:left;
+	width: 150px;
 }
